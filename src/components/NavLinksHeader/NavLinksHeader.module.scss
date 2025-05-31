@@ -1,0 +1,19 @@
+.navLinksHeader {
+    display: flex;
+    gap: 34px;
+    margin-left: 197px;
+
+    &__link {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--light);
+        letter-spacing: 2px;
+        line-height: 25px;
+        transition: color 0.3s ease-in-out;
+
+        &:hover,
+        &:focus {
+            color: var(--orange);
+        }
+    }
+}

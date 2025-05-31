@@ -1,0 +1,107 @@
+.navCategories {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+
+    &__item {
+        background-color: var(--grey);
+        border-radius: 8px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    &__picture {
+        position: absolute;
+        transform: translate(-50%, -37%);
+        height: 160px;
+        left: 50%;
+    }
+
+    &__name {
+        font-weight: 700;
+    }
+
+    &__link {
+        color: var(--super-dark);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        opacity: 0.5;
+        display: flex;
+        margin: 0 auto;
+        transition: color 0.3s ease-in-out;
+
+        &:hover,
+        &:focus {
+            color: var(--orange);
+        }
+    }
+}
+
+.navCategoriesDesktop {
+    max-width: 1110px;
+    justify-content: space-between;
+
+    &__item {
+        height: 204px;
+        max-width: 350px;
+    }
+
+    &__name {
+        font-size: 18px;
+        letter-spacing: 1.286px;
+        margin-top: 116px;
+        margin-bottom: 15px;
+    }
+
+    &__picture {
+        height: 200px;
+    }
+}
+
+.navCategoriesTablet {
+    max-width: 689px;
+    justify-content: space-between;
+
+    &__item {
+        height: 165px;
+        max-width: 223px;
+    }
+
+
+    &__name {
+        font-size: 15px;
+        letter-spacing: 1.071px;
+        margin-top: 88px;
+        margin-bottom: 17px;
+    }
+
+    &__picture {
+        height: 160px;
+    }
+}
+
+.navCategoriesMobile {
+    flex-direction: column;
+    max-width: 327px;
+    gap: 68px;
+
+    &__item {
+        height: 165px;
+        max-width: 327px;
+    }
+
+    &__name {
+        font-size: 15px;
+        letter-spacing: 1.071px;
+        margin-top: 88px;
+        margin-bottom: 17px;
+    }
+
+    &__picture {
+        height: 160px;
+    }
+}

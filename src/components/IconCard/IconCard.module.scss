@@ -1,0 +1,16 @@
+.iconCard {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+
+    &__icon {
+        fill: var(--light);
+        transition: fill 0.3s ease-in-out;
+
+        &:hover,
+        &:focus {
+            fill: var(--orange);
+            cursor: pointer;
+        }
+    }
+}

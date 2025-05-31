@@ -1,0 +1,26 @@
+.navLinksFooter {
+    display: flex;
+    gap: 34px;
+
+
+    &__link {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--light);
+        letter-spacing: 2px;
+        line-height: 25px;
+        transition: color 0.3s ease-in-out;
+
+        &:hover,
+        &:focus {
+            color: var(--orange);
+        }
+    }
+}
+
+.navLinksFooterMobile {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}

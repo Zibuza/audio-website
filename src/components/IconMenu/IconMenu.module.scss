@@ -1,0 +1,20 @@
+.iconMenu {
+    margin-right: 42px;
+    background-color: transparent;
+    border: none;
+
+    &__icon {
+        fill: var(--light);
+        transition: fill 0.3s ease-in-out;
+
+        &:hover,
+        &:focus {
+            fill: var(--orange);
+            cursor: pointer;
+        }
+    }
+}
+
+.iconMenuMobile {
+    margin-right: 76px;
+}

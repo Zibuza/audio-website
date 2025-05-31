@@ -1,0 +1,132 @@
+.sectionMainHome {
+    background-color: var(--super-dark);
+
+    &__container {
+        width: 100%;
+        border-top: 1px solid rgb(255, 255, 255, 0.2);
+        margin: 0 auto;
+    }
+
+    &__containerText {
+        display: flex;
+        flex-direction: column;
+        color: var(--light);
+        width: 100%;
+    }
+
+    &__description {
+        font-size: 14px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        opacity: 0.4964;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+        opacity: 0.75;
+        margin-top: 24px;
+        width: 100%;
+        max-width: 349px;
+    }
+}
+
+.sectionMainHomeDesktop {
+    background-image: url("../../assets/home/desktop/image-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+    &__container {
+        max-width: 1110px;
+        height: 632px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__containerText {
+        max-width: 396px;
+
+    }
+
+    &__title {
+        margin-top: 24px;
+        font-size: 56px;
+        line-height: 58px;
+        letter-spacing: 2px;
+    }
+
+    &__text {
+        margin-bottom: 40px;
+    }
+
+}
+
+.sectionMainHomeTablet {
+    background-image: url("../../assets/home/tablet/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+    &__container {
+        max-width: 689px;
+        height: 639px;
+        padding-top: 127px;
+    }
+
+    &__containerText {
+        text-align: center;
+        align-items: center;
+        max-width: 396px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        margin-top: 24px;
+        font-size: 56px;
+        line-height: 58px;
+        letter-spacing: 2px;
+    }
+
+    &__text {
+        margin-bottom: 40px;
+    }
+}
+
+.sectionMainHomeMobile {
+    background-image: url("../../assets/home/mobile/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+    &__container {
+        max-width: 327px;
+        height: 510px;
+        padding-top: 109px;
+    }
+
+    &__containerText {
+        text-align: center;
+        align-items: center;
+        max-width: 328px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        margin-top: 16px;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 1.286px;
+    }
+
+    &__text {
+        margin-bottom: 28px;
+    }
+}

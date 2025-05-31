@@ -1,0 +1,215 @@
+.modalThanks {
+    width: 100%;
+    background-color: var(--light);
+    border-radius: 8px;
+    cursor: auto;
+
+    &__text {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+        opacity: 0.5;
+    }
+
+    &__summary {
+        display: flex;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    &__cartProducts {
+        background-color: var(--grey);
+        width: 100%;
+        padding: 14px 24px 10px 24px;
+    }
+
+    &__product {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__prImageText {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    &__prImage {
+        width: 64px;
+        height: 64px;
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: var(--grey);
+        background-size: cover;
+    }
+
+    &__prTitle {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    &__prPrice {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 25px;
+        opacity: 0.5;
+    }
+
+    &__count {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+        opacity: 0.5;
+        margin-bottom: 26px;
+    }
+
+    &__productList {
+        gap: 6px;
+    }
+
+    &__grandTotal {
+        background-color: var(--super-dark);
+        width: 100%;
+        display: flex;
+    }
+
+    &__grandTotalTextPrice {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__grandTotalText {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+        color: var(--light);
+        opacity: 0.5;
+    }
+
+    &__grandTotalPrice {
+        color: var(--light);
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__btn {
+        margin-bottom: 7px;
+        width: 100%;
+        padding: 12px 0 12px 0;
+        background-color: transparent;
+        border: none;
+        border-top: 1px solid rgb(0, 0, 0, 0.08);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: -0.214px;
+        color: rgb(0, 0, 0, 0.5);
+        transition: color 0.3s ease-in-out;
+
+        &:hover,
+        &:focus {
+            color: var(--orange);
+            cursor: pointer;
+        }
+    }
+
+    &__link {
+        width: 100%;
+        height: 48px;
+        background-color: var(--orange);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: var(--light);
+        transition: background-color 0.3s ease-in-out;
+
+        &:hover,
+        &:focus {
+            background-color: var(--orange-light);
+        }
+
+    }
+}
+
+.modalThanksDesktopTablet {
+    padding: 48px;
+    max-width: 540px;
+
+    &__title {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 1.143px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+        margin-top: 33px;
+    }
+
+    &__summary {
+        margin: 33px 0 48px 0;
+    }
+
+    &__cartProducts {
+        max-width: 246px;
+    }
+
+    &__grandTotalTextPrice {
+        padding: 20px 0 41px 25px;
+        margin-top: auto;
+    }
+}
+
+.modalThanksMobile {
+    padding: 32px;
+    max-width: 327px;
+
+    &__title {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.857px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+        margin-top: 23px;
+    }
+
+    &__summary {
+        flex-direction: column;
+        margin: 24px 0 23px 0;
+    }
+
+    &__grandTotalTextPrice {
+        padding: 15px 0 19px 24px;
+        margin-top: auto;
+    }
+}
+
+.xx99-mark-two-headphones {
+    background-image: url("../../assets/cart/image-xx99-mark-two-headphones.jpg");
+}
+
+.xx99-mark-one-headphones {
+    background-image: url("../../assets/cart/image-xx99-mark-one-headphones.jpg");
+}
+
+.xx59-headphones {
+    background-image: url("../../assets/cart/image-xx59-headphones.jpg");
+}
+
+.zx9-speaker {
+    background-image: url("../../assets/cart/image-zx9-speaker.jpg");
+}
+
+.zx7-speaker {
+    background-image: url("../../assets/cart/image-zx7-speaker.jpg");
+}
+
+.yx1-earphones {
+    background-image: url("../../assets/cart/image-yx1-earphones.jpg");
+}

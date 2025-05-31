@@ -1,0 +1,273 @@
+.sectionProductsHome {
+    &__container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    &__zx9Container {
+        width: 100%;
+        border-radius: 8px;
+        position: relative;
+        background-color: var(--orange);
+        overflow: hidden;
+    }
+
+    &__zx7Container {
+        width: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: var(--grey);
+    }
+
+    &__yx1Container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__zx9ContainerText {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__zx7ContainerText,
+    &__yx1ContainerTextInside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    &__yx1ContainerText {
+        width: 100%;
+        background-color: var(--grey);
+        border-radius: 8px;
+    }
+
+    &__yx1ContainerImage {
+        overflow: hidden;
+        width: 100%;
+        border-radius: 8px;
+        background-color: var(--super-dark);
+    }
+
+    &__yx1ContainerText {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+
+    &__zx9Image {
+        position: absolute;
+    }
+
+    &__zx9Title {
+        color: var(--light);
+    }
+
+    &__zx9Text {
+        color: var(--light);
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    &__zx7Title,
+    &__yx1Title {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+}
+
+.sectionProductsHomeDesktop {
+    padding-top: 168px;
+
+    &__container {
+        max-width: 1110px;
+        gap: 48px;
+    }
+
+    &__zx9Container {
+        max-width: 1110px;
+        height: 560px;
+    }
+
+    &__zx7Container {
+        height: 320px;
+        background-image: url("../../assets/home/desktop/image-speaker-zx7.jpg");
+        background-size: cover;
+        padding: 101px 0 0 95px;
+    }
+
+    &__yx1Container {
+        height: 320px;
+    }
+
+    &__zx9ContainerText {
+        max-width: 349px;
+        margin: 133px 0 0 666px;
+    }
+
+    &__yx1ContainerImage {
+        max-width: 540px;
+        background-image: url("../../assets/home/desktop/image-earphones-yx1.jpg");
+        background-size: cover;
+    }
+
+    &__yx1ContainerText {
+        max-width: 540px;
+        padding: 101px 0 0 95px;
+    }
+
+    &__zx9Image {
+        height: 460px;
+        top: 113px;
+        left: 135px;
+    }
+
+    &__zx9Title {
+        font-size: 56px;
+        line-height: 58px;
+        letter-spacing: 2px;
+    }
+
+    &__zx9Text {
+        margin: 24px 0 40px 0;
+    }
+}
+
+.sectionProductsHomeTablet {
+    padding-top: 96px;
+
+    &__container {
+        max-width: 689px;
+        gap: 32px;
+    }
+
+    &__zx9Container {
+        max-width: 689px;
+        height: 720px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__zx7Container {
+        height: 320px;
+        background-image: url("../../assets/home/tablet/image-speaker-zx7.jpg");
+        background-size: cover;
+        padding: 101px 0 0 62px;
+    }
+
+    &__yx1Container {
+        height: 320px;
+    }
+
+    &__zx9ContainerText {
+        max-width: 349px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 353px;
+    }
+
+    &__yx1ContainerImage {
+        max-width: 339px;
+        background-image: url("../../assets/home/tablet/image-earphones-yx1.jpg");
+        background-size: cover;
+    }
+
+    &__yx1ContainerText {
+        max-width: 339px;
+        padding: 101px 0 0 41px;
+    }
+
+    &__zx9Image {
+        height: 230px;
+        top: 55px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__zx9Title {
+        font-size: 56px;
+        line-height: 58px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    &__zx9Text {
+        margin: 24px 0 40px 0;
+        text-align: center;
+    }
+}
+
+.sectionProductsHomeMobile {
+    padding-top: 120px;
+
+    &__container {
+        max-width: 327px;
+        gap: 24px;
+    }
+
+    &__zx9Container {
+        max-width: 327px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__zx7Container {
+        height: 320px;
+        background-image: url("../../assets/home/mobile/image-speaker-zx7.jpg");
+        background-size: cover;
+        padding: 101px 0 0 24px;
+    }
+
+    &__yx1Container {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__zx9ContainerText {
+        max-width: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 294px
+    }
+
+    &__yx1ContainerImage {
+        height: 200px;
+        max-width: 327px;
+        background-image: url("../../assets/home/mobile/image-earphones-yx1.jpg");
+        background-size: cover;
+    }
+
+    &__yx1ContainerText {
+        max-width: 327px;
+        padding: 41px 0 41px 24px;
+    }
+
+    &__zx9Image {
+        height: 200px;
+        top: 55px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__zx9Title {
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 1.286px;
+        text-align: center;
+        max-width: 240px;
+    }
+
+    &__zx9Text {
+        margin: 24px 0 24px 0;
+        text-align: center;
+    }
+}

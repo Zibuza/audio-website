@@ -1,0 +1,21 @@
+.linkSee {
+    width: 160px;
+    height: 48px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--super-dark);
+    border: 1px solid var(--super-dark);
+    transition: all 0.3s ease-in-out;
+
+    &:hover,
+    &:focus {
+        background-color: var(--super-dark);
+        color: var(--light);
+    }
+}

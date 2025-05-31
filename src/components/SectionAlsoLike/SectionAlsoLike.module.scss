@@ -1,0 +1,166 @@
+.sectionAlsoLike {
+
+    &__container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    &__titleMain {
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__productContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 24px;
+        letter-spacing: 1.714px;
+        margin-bottom: 32px;
+    }
+
+    &__image {
+        width: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: var(--grey);
+        background-size: cover;
+    }
+}
+
+.sectionAlsoLikeDesktop {
+    padding: 160px 0 40px 0;
+
+    &__container {
+        max-width: 1110px;
+        justify-content: space-between;
+    }
+
+    &__titleMain {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 1.143px;
+        margin-bottom: 64px;
+    }
+
+    &__image {
+        width: 350px;
+        height: 318px;
+        margin-bottom: 40px;
+    }
+
+}
+
+.sectionAlsoLikeTablet {
+    padding: 120px 0 24px 0;
+
+    &__container {
+        max-width: 689px;
+        justify-content: space-between;
+    }
+
+    &__titleMain {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 1.143px;
+        margin-bottom: 56px;
+    }
+
+    &__image {
+        width: 223px;
+        height: 318px;
+        margin-bottom: 40px;
+    }
+}
+
+.sectionAlsoLikeMobile {
+    padding: 120px 0 80px 0;
+
+    &__container {
+        max-width: 327px;
+        flex-direction: column;
+        gap: 56px;
+    }
+
+    &__titleMain {
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.857px;
+        margin-bottom: 40px;
+    }
+
+    &__image {
+        max-width: 327px;
+        height: 120px;
+        margin-bottom: 32px;
+    }
+}
+
+.xx99-mark-two-headphones {
+    background-image: url("../../assets/shared/mobile/image-xx99-mark-two-headphones.jpg");
+}
+
+.xx99-mark-one-headphones {
+    background-image: url("../../assets/shared/mobile/image-xx99-mark-one-headphones.jpg");
+}
+
+.xx59-headphones {
+    background-image: url("../../assets/shared/mobile/image-xx59-headphones.jpg");
+}
+
+.zx9-speaker {
+    background-image: url("../../assets/shared/mobile/image-zx9-speaker.jpg");
+}
+
+.zx7-speaker {
+    background-image: url("../../assets/shared/mobile/image-zx7-speaker.jpg");
+}
+
+@media (min-width: 769px) {
+    .xx99-mark-two-headphones {
+        background-image: url("../../assets/shared/tablet/image-xx99-mark-two-headphones.jpg");
+    }
+
+    .xx99-mark-one-headphones {
+        background-image: url("../../assets/shared/tablet/image-xx99-mark-one-headphones.jpg");
+    }
+
+    .xx59-headphones {
+        background-image: url("../../assets/shared/tablet/image-xx59-headphones.jpg");
+    }
+
+    .zx9-speaker {
+        background-image: url("../../assets/shared/tablet/image-zx9-speaker.jpg");
+    }
+
+    .zx7-speaker {
+        background-image: url("../../assets/shared/tablet/image-zx7-speaker.jpg");
+    }
+}
+
+@media (min-width: 1280px) {
+    .xx99-mark-two-headphones {
+        background-image: url("../../assets/shared/desktop/image-xx99-mark-two-headphones.jpg");
+    }
+
+    .xx99-mark-one-headphones {
+        background-image: url("../../assets/shared/desktop/image-xx99-mark-one-headphones.jpg");
+    }
+
+    .xx59-headphones {
+        background-image: url("../../assets/shared/desktop/image-xx59-headphones.jpg");
+    }
+
+    .zx9-speaker {
+        background-image: url("../../assets/shared/desktop/image-zx9-speaker.jpg");
+    }
+
+    .zx7-speaker {
+        background-image: url("../../assets/shared/desktop/image-zx7-speaker.jpg");
+    }
+}

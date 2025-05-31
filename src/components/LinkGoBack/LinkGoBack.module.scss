@@ -1,0 +1,31 @@
+.linkGoBack {
+    max-width: 100%;
+    margin: 0 auto;
+
+    &__link {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+        color: var(--super-dark);
+        opacity: 0.5;
+        transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+        &:hover,
+        &:focus {
+            color: var(--orange);
+            opacity: 1;
+        }
+    }
+}
+
+.linkGoBackDesktop {
+    max-width: 1110px;
+}
+
+.linkGoBackTablet {
+    max-width: 689px;
+}
+
+.linkGoBackMobile {
+    max-width: 327px;
+}

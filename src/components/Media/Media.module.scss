@@ -1,0 +1,18 @@
+.media {
+    display: flex;
+    gap: 16px;
+    width: fit-content;
+    align-items: center;
+
+
+    &__icon {
+        fill: var(--light);
+        transition: fill 0.3s ease-in-out;
+
+        &:hover,
+        &:focus {
+            fill: var(--orange);
+            cursor: pointer;
+        }
+    }
+}
